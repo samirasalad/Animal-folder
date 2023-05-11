@@ -1,0 +1,160 @@
+body{
+      font-family: ariel;
+      margin: 0px;
+      text-align: center;
+      background-size: cover;
+      background-position:center;
+      background-color: darkgrey
+   }
+header{
+   background-color:white ;
+}
+   a :link{
+      
+      color:  white;
+   }
+   a:hover{
+      color: white;
+   }
+   a: active{
+      color:black;
+   }
+   nav a: visited{
+      color: white;
+
+   }
+   
+   nav{
+      border-top: 2px darkgrey;
+   }
+   nav{
+   bottom-top: 2px; 
+   border-bottom: 2px ;
+   padding: 3px;
+   background color: darkgrey;
+   text-align: center;
+}
+   nav ul{
+      list-style: none;
+      background-color: rgb(0, 0, 0, 0.75);;
+      text-align: center;
+      padding: 0;
+      margin: 0 auto;
+      font-size: 1em;
+   }
+   nav li{
+      display: inline-block;
+   }
+   nav{
+      border-top: 2px black;
+   }
+   nav a{
+      text-decoration: none;
+      color: #fff;
+      width: 100px;
+      display: block;
+      padding: 15px;
+      font size: 15px;
+      text-align: center;
+   }
+   nav a: hover{
+      background: white;
+   }
+   nav a:hover{
+   color: #404040
+}
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  color: white;
+  background-color:;
+
+}
+.col-sm-8{
+   padding-left: 100px;
+}
+
+
+footer{
+   clear: both;
+   text-align:center ;
+   border-top: 1px white;
+   padding: 5px;
+   color: black;
+   background-color: lightgrey;
+   border: 1px solid darkgreen;
+   padding: 5px;
+}
+.footer{
+   text-align: left;
+}
+h2{
+   font-weight: 600;
+}
+
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+.img-fluid{
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.icon-text {
+  position: relative;
+  padding-left: 40px; /* Adjust the value to control the spacing between the icon and text */
+}
+
+.icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px; 
+  height: 30px; 
+}
+
+li{
+   list-style: none;
+   text-align: center;
+}
+ul{
+   text-align: center;
+}
+
+}
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+      font-size: 4em;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+   h1{
+      font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+   h1{
+      font-size: 1.5em;
+   }
+}
